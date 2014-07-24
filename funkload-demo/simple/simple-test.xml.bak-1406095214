@@ -1,0 +1,103 @@
+<response cycle="001" cvus="000" thread="001" suite="Simple" name="test_simple" step="001" number="001" type="get" result="Failure" url="/index.html" code="404" description="Get url" time="1406095171.29" duration="0.0119349956512">
+  <headers>
+    <header name="vary" value="Accept-Encoding,User-Agent" />
+    <header name="server" value="Apache/2.2.21 (Fedora)" />
+    <header name="connection" value="close" />
+    <header name="date" value="Wed, 23 Jul 2014 05:59:31 GMT" />
+    <header name="access-control-allow-origin" value="http://i26.fatlens.com" />
+    <header name="content-type" value="text/html; charset=utf-8" />
+  </headers>
+  <body><![CDATA[
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=320" />
+<title>Spotzot - Page not found</title>
+
+<style>
+
+#abouttext {
+        white-space: normal;
+        overflow: auto;
+        margin: 0px;
+        padding: 0px;
+        border:0px;
+        background-color:#F1F7CE;
+}
+td.header {
+        background-color:#C8E9F6;
+}
+
+
+td.aboutText {
+    background-color:#F1F7CE;
+    font-family: Arial, Helvetica, sans-serif;
+    font-color: #CCCCCC;
+    font-size:11px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+table{
+background-color:#F1F7CE;
+}
+
+body,td,th {
+        font-family: Arial, Helvetica, sans-serif;
+}
+.style1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color: #FFFFFF;
+        font-size: 14px;
+        vertical-align: middle;
+        top: 2px;
+}
+</style>
+</head>
+
+<body>
+
+<table style="top: 0px; width:100%; height:95px" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="65" width="100%" class="header" scope="col"><div align="center"><img src="/static/sz/logo_sz.gif" alt="Spotzot" width="217" height="65" class="header" /></div></td>
+  </tr>
+  <tr>
+    <td height="30" width="100%" background="/static/sz/bg_gradient_about.gif" scope="row"><div align="center" style="top: 2px; height: 28px; vertical-align: middle" ><span class="style1">Spotzot Error</span></div></td>
+  </tr>
+</table>
+<div id="abouttext">
+  <p align="left">Sorry! Spotzot encountered an error in finding /index.html</p>
+
+  <p align="left"><strong>Here are a few links you can checkout :</strong></p>
+  <p align="left"><a href="http://www.spotzot.com/GoMall/">Malls</a> - Look for promotions in specific malls</p>
+  <p align="left"><a href="http://www.spotzot.com/GoStore/">Stores</a> - Look for promotions in specific stores</p>
+  <p align="left"><a href="http://www.spotzot.com/GoSearch/">Search</a> - Search for promotions</p>
+  <p align="left"><a href="http://www.spotzot.com/about/">About</a> - About us</p>
+  <p align="left"><a href="mailto:webmaster@spotzot.com">Email</a> - Email Spotzot webmaster to report the problem</p>
+</div>
+<script type="text/javascript">
+  var GOOG_FIXURL_LANG = 'en';
+  var GOOG_FIXURL_SITE = 'http://www.spotzot.com'
+</script>
+<script type="text/javascript"
+  src="http://linkhelp.clients.google.com/tbproxy/lh/wm/fixurl.js">
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? " https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + " google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try{
+var pageTracker = _gat._getTracker("UA-12134829-1");
+pageTracker._trackPageview("/404.html?page=" + document.location.pathname + document.location.search + "&from=" + document.referrer);
+} catch(err) {}
+</script>
+</body>
+</html>
+]]>
+  </body>
+</response>
+<testResult cycle="001" cvus="000" thread="001" suite="Simple" name="test_simple"  time="1406095171.29" result="Failure" steps="1" duration="0.0973691940308" connection_duration="0.0119349956512" requests="1" pages="0" xmlrpc="0" redirects="0" images="0" links="0" traceback="Traceback (most recent call last):&#10;   File &quot;/usr/lib/python2.7/site-packages/funkload-1.16.1-py2.7.egg/funkload/FunkLoadTestCase.py&quot;, line 946, in __call__&#10;    testMethod()&#10;   File &quot;/home/app/prod/vzperz/testharness/funkload/funkload-demo/simple/test_Simple.py&quot;, line 23, in test_simple&#10;    self.get(server_url, description='Get url')&#10;   File &quot;/usr/lib/python2.7/site-packages/funkload-1.16.1-py2.7.egg/funkload/FunkLoadTestCase.py&quot;, line 391, in get&#10;    method=&quot;get&quot;, load_auto_links=load_auto_links)&#10;   File &quot;/usr/lib/python2.7/site-packages/funkload-1.16.1-py2.7.egg/funkload/FunkLoadTestCase.py&quot;, line 299, in _browse&#10;    response = self._connect(url, params, ok_codes, method, description)&#10;   File &quot;/usr/lib/python2.7/site-packages/funkload-1.16.1-py2.7.egg/funkload/FunkLoadTestCase.py&quot;, line 216, in _connect&#10;    raise self.failureException, str(value.response)&#10; AssertionError: /index.html&#10;HTTP Response 404: NOT FOUND&#10;" />

@@ -1,0 +1,54 @@
+<funkload version="1.16.1" time="2014-07-22T23:40:23.559675">
+<config key="sleep_time_min" value="0.0" />
+<config key="node" value="prodapp03" />
+<config key="startup_delay" value="0.01" />
+<config key="cycles" value="[1, 10, 20]" />
+<config key="cycle_time" value="1.0" />
+<config key="description" value="Access 3 times the main url" />
+<config key="configuration_file" value="/home/app/prod/vzperz/testharness/funkload/funkload-demo/simple/Simple.conf" />
+<config key="class_title" value="Simple FunkLoad tests" />
+<config key="server_url" value="http://www.google.com" />
+<config key="module" value="test_Simple" />
+<config key="id" value="test_simple" />
+<config key="class_description" value="Simply testing a default static page" />
+<config key="sleep_time" value="0.01" />
+<config key="sleep_time_max" value="0.5" />
+<config key="duration" value="10" />
+<config key="method" value="test_simple" />
+<config key="log_xml" value="/home/app/prod/vzperz/testharness/funkload/funkload-demo/simple/simple-bench.xml" />
+<config key="class" value="Simple" />
+<config key="python_version" value="2.7.1" />
+<response cycle="000" cvus="001" thread="000" suite="Simple" name="test_simple" step="001" number="001" type="get" result="Successful" url="" code="200" description="Get url" time="1406097623.57" duration="0.0462348461151" />
+<response cycle="000" cvus="001" thread="000" suite="Simple" name="test_simple" step="001" number="002" type="image" result="Successful" url="/images/icons/product/chrome-48.png" code="200" description="" time="1406097623.61" duration="0.00950384140015" />
+<response cycle="000" cvus="001" thread="000" suite="Simple" name="test_simple" step="001" number="003" type="image" result="Successful" url="/images/srpr/logo9w.png" code="200" description="" time="1406097623.63" duration="0.0328259468079" />
+<response cycle="000" cvus="001" thread="000" suite="Simple" name="test_simple" step="002" number="001" type="get" result="Successful" url="" code="200" description="Get url" time="1406097624.06" duration="0.0469880104065" />
+<response cycle="000" cvus="001" thread="000" suite="Simple" name="test_simple" step="003" number="001" type="get" result="Successful" url="" code="200" description="Get url" time="1406097624.37" duration="0.0439829826355" />
+<testResult cycle="000" cvus="001" thread="000" suite="Simple" name="test_simple"  time="1406097623.56" result="Successful" steps="3" duration="1.25393986702" connection_duration="0.179535627365" requests="5" pages="3" xmlrpc="0" redirects="0" images="2" links="0" />
+<response cycle="000" cvus="001" thread="000" suite="Simple" name="test_simple" step="001" number="001" type="get" result="Successful" url="" code="200" description="Get url" time="1406097624.83" duration="0.0511529445648" />
+<response cycle="000" cvus="001" thread="000" suite="Simple" name="test_simple" step="001" number="002" type="image" result="Successful" url="/images/icons/product/chrome-48.png" code="200" description="" time="1406097624.89" duration="0.00904703140259" />
+<response cycle="000" cvus="001" thread="000" suite="Simple" name="test_simple" step="001" number="003" type="image" result="Successful" url="/images/srpr/logo9w.png" code="200" description="" time="1406097624.9" duration="0.0324320793152" />
+<response cycle="000" cvus="001" thread="000" suite="Simple" name="test_simple" step="002" number="001" type="get" result="Successful" url="" code="200" description="Get url" time="1406097625.38" duration="0.04514503479" />
+<response cycle="000" cvus="001" thread="000" suite="Simple" name="test_simple" step="003" number="001" type="get" result="Successful" url="" code="200" description="Get url" time="1406097625.47" duration="0.0472159385681" />
+<testResult cycle="000" cvus="001" thread="000" suite="Simple" name="test_simple"  time="1406097624.83" result="Successful" steps="3" duration="0.888293981552" connection_duration="0.184993028641" requests="5" pages="3" xmlrpc="0" redirects="0" images="2" links="0" />
+<response cycle="000" cvus="001" thread="000" suite="Simple" name="test_simple" step="001" number="001" type="get" result="Successful" url="" code="200" description="Get url" time="1406097625.73" duration="0.0514318943024" />
+<response cycle="000" cvus="001" thread="000" suite="Simple" name="test_simple" step="001" number="002" type="image" result="Successful" url="/images/icons/product/chrome-48.png" code="200" description="" time="1406097625.78" duration="0.0131959915161" />
+<response cycle="000" cvus="001" thread="000" suite="Simple" name="test_simple" step="001" number="003" type="image" result="Successful" url="/images/srpr/logo9w.png" code="200" description="" time="1406097625.8" duration="0.0331039428711" />
+<response cycle="000" cvus="001" thread="000" suite="Simple" name="test_simple" step="002" number="001" type="get" result="Successful" url="" code="200" description="Get url" time="1406097626.05" duration="0.0432081222534" />
+<response cycle="000" cvus="001" thread="000" suite="Simple" name="test_simple" step="003" number="001" type="get" result="Successful" url="" code="200" description="Get url" time="1406097626.5" duration="0.081652879715" />
+<testResult cycle="000" cvus="001" thread="000" suite="Simple" name="test_simple"  time="1406097625.73" result="Successful" steps="3" duration="1.25893497467" connection_duration="0.222592830658" requests="5" pages="3" xmlrpc="0" redirects="0" images="2" links="0" />
+<response cycle="000" cvus="001" thread="000" suite="Simple" name="test_simple" step="001" number="001" type="get" result="Successful" url="" code="200" description="Get url" time="1406097627.0" duration="0.043025970459" />
+<response cycle="000" cvus="001" thread="000" suite="Simple" name="test_simple" step="001" number="002" type="image" result="Successful" url="/images/icons/product/chrome-48.png" code="200" description="" time="1406097627.04" duration="0.00858998298645" />
+<response cycle="000" cvus="001" thread="000" suite="Simple" name="test_simple" step="001" number="003" type="image" result="Successful" url="/images/srpr/logo9w.png" code="200" description="" time="1406097627.05" duration="0.0325109958649" />
+<response cycle="000" cvus="001" thread="000" suite="Simple" name="test_simple" step="002" number="001" type="get" result="Successful" url="" code="200" description="Get url" time="1406097627.34" duration="0.0434739589691" />
+<response cycle="000" cvus="001" thread="000" suite="Simple" name="test_simple" step="003" number="001" type="get" result="Successful" url="" code="200" description="Get url" time="1406097627.68" duration="0.0458281040192" />
+<testResult cycle="000" cvus="001" thread="000" suite="Simple" name="test_simple"  time="1406097627.0" result="Successful" steps="3" duration="0.911930084229" connection_duration="0.173429012299" requests="5" pages="3" xmlrpc="0" redirects="0" images="2" links="0" />
+<response cycle="000" cvus="001" thread="000" suite="Simple" name="test_simple" step="001" number="001" type="get" result="Successful" url="" code="200" description="Get url" time="1406097627.92" duration="0.039922952652" />
+<response cycle="000" cvus="001" thread="000" suite="Simple" name="test_simple" step="001" number="002" type="image" result="Successful" url="/images/icons/product/chrome-48.png" code="200" description="" time="1406097627.96" duration="0.00853300094604" />
+<response cycle="000" cvus="001" thread="000" suite="Simple" name="test_simple" step="001" number="003" type="image" result="Successful" url="/images/srpr/logo9w.png" code="200" description="" time="1406097627.97" duration="0.0326430797577" />
+<response cycle="000" cvus="001" thread="000" suite="Simple" name="test_simple" step="002" number="001" type="get" result="Successful" url="" code="200" description="Get url" time="1406097628.47" duration="0.0456511974335" />
+<response cycle="000" cvus="001" thread="000" suite="Simple" name="test_simple" step="003" number="001" type="get" result="Successful" url="" code="200" description="Get url" time="1406097629.02" duration="0.121062994003" />
+<testResult cycle="000" cvus="001" thread="000" suite="Simple" name="test_simple"  time="1406097627.92" result="Successful" steps="3" duration="1.41501402855" connection_duration="0.247813224792" requests="5" pages="3" xmlrpc="0" redirects="0" images="2" links="0" />
+<response cycle="000" cvus="001" thread="000" suite="Simple" name="test_simple" step="001" number="001" type="get" result="Successful" url="" code="200" description="Get url" time="1406097629.35" duration="0.0502321720123" />
+<response cycle="000" cvus="001" thread="000" suite="Simple" name="test_simple" step="001" number="002" type="image" result="Successful" url="/images/icons/product/chrome-48.png" code="200" description="" time="1406097629.4" duration="0.0215690135956" />
+<response cycle="000" cvus="001" thread="000" suite="Simple" name="test_simple" step="001" number="003" type="image" result="Successful" url="/images/srpr/logo9w.png" code="200" description="" time="1406097629.42" duration="0.0329461097717" />
+<response cycle="000" cvus="001" thread="000" suite="Simple" name="test_simple" step="002" number="001" type="get" result="Successful" url="" code="200" description="Get url" time="1406097629.62" duration="0.088723897934" />
